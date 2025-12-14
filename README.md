@@ -12,31 +12,6 @@ The dashboard provides visual insights into trends such as AI adoption, content 
 
 ---
 
-## Project Structure
-
-project/
-│
-├── docs/
-│ ├── proposal.pdf
-│ └── lightning_talk.pdf
-│
-├── src/
-│ ├── data_processing/
-│ │ ├── __init__.py  # Allow the directory to be treated as a Python package
-│ │ ├── process_data.py  # Data cleaning, aggregation, and caching
-│ │ └── Global_AI_Content_Impact_Dataset.csv
-│ │
-│ └── visualization/
-│   └── core.py  # Dash app and all visualization logic
-│
-├── tests/
-│ └── test_visualization.py  # Unit tests for data processing
-│
-├── requirements.txt  # Required Python packages
-└── README.md # Project overview and instructions
-
----
-
 ## Features
 
 ### Data Processing Pipeline
